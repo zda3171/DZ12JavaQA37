@@ -9,7 +9,7 @@ public class MoviesManager {
     }
 
     public MoviesManager() {
-        limit = 5;
+        limit = 10;
     }
 
     public void add(String film) {
@@ -23,7 +23,6 @@ public class MoviesManager {
 
     public String[] findAll() {
         return movies;
-
     }
 
     public String[] findLast() {
